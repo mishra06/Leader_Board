@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: sans-serif;
+}
+
+main{
+
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    
+}
+main > h1{
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 1rem;
+    text-transform:capitalize;
+}
+
+.input_section{
+
+    height: 3rem;
+    /* border: 3px solid rgb(15, 14, 14); */
+    display: flex;
+    /* background-color: aqua; */
+    gap: 1rem;
+    width: 73%;
+    padding: 8px;
+    align-items: center;
+}
+
+.firstname, .lastname, .country, .numb{
+    height: 95%;
+   border: none;
+   width: 13rem;
+   padding: 5px;
+   border: 1px solid seagreen;
+}
+
+.error_msg{
+    color: red;
+    font-size: x-large;
+    font-weight: 600;
+    display: none;
+}
+
+.leader_bord_sec{
+    display: flex;
+    margin-top: -1rem;
+    flex-direction: column;
+    width: 70rem;
+    gap: 1rem;
+    margin-bottom: 2rem;
+    
+}
+
+.main_bord_css{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 1em;
+    align-items: center;
+    height: 8rem;
+    font-size: 15px;
+    background-color: lightgreen;
+   text-transform: uppercase;
+
+}
+
+.sepret_bord{
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+
+}
+
+.number_sec{
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+}
+
+.bn632-hover {
+    width: 160px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    margin: 20px;
+    height: 50px;
+    text-align: center;
+    border: none;
+    background-size: 300% 100%;
+    border-radius: 50px;
+    -o-transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+  }
+  
+  .bn632-hover:hover {
+    background-position: 100% 0;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+  }
+  
+  .bn632-hover:focus {
+    outline: none;
+  }
+  
+  .bn632-hover.bn24 {
+    background-image: linear-gradient(
+        to right,
+        #6253e1,
+        #852d91,
+        #a3a1ff,
+        #f24645
+      );
+    box-shadow: 0 4px 15px 0 rgba(126, 52, 161, 0.75);
+  }
